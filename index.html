@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Kari Ro Shrine </title>
+
+  <!-- Normalize.css, a cross-browser reset file
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+
+ <!-- Fonts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+
+
+ <!-- Stylesheets
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+  <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+  <header class="header" role="banner">
+    <h1 class="quiz-title">Kari Ro Shrine </h1>
+  </header>
+
+   <!-- Landing page
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+  <section class="start-page" id="start-page">
+    <p class='intro'> To you who sets foot in this shrine <br>
+    I am Kari Ro. In the name of the <br> Goddess Hylia, I offer this trial.</p>
+    <button class="start-button" role="button">Enter Shrine</button>
+  </section>
+
+  <!-- Questions
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+  <section class="quiz-questions hide-display" id="quiz-questions">  
+  </section>
+  <section class="navigation">
+    <nav role="navigation" class="quiz-nav hide-display" id="quiz-nav">
+        <p><button class="next-button nav-button" role="button">Go Forth</button></p>
+    </nav>
+  </section>
+
+  <!-- Results
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->    
+  <section class="feedback-page hide-display" id="feedback-page">
+    <h2> Your resourcefulness in overcoming this <br> trial speaks to the promise of a hero... </h2>
+    <h4> In the name of Goddess Hylia, I bestow <br> upon you this Spirit Orb. </h4>
+    
+    <img class='orb' src="Links/orb.png" alt="spirit orb" style="width:140px;height:140px;">
+    <p class="final-score"></p>
+    <button class="reEnter-button" role="button">Re-enter... </button>
+  </section>
+
+<!-- JQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
